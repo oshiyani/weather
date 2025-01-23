@@ -1,0 +1,50 @@
+body{
+  width: 100vh;
+  height: 100vh;
+  background-image: url('./asset/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.app{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-section{
+  text-align: center;
+
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+button{
+  margin: 5px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+button:hover{
+  filter: brightness(1.5);
+}
+
+.timer{
+  color: green;
+}
+
+.timer span{
+  color: red;
+}
